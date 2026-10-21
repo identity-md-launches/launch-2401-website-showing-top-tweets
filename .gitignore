@@ -1,0 +1,12 @@
+# Explicit submitted path budgets (total 8 MiB):
+# /dist/**: 2 MiB, included; /public/**: 2 MiB, included.
+# /src/**: 512 KiB; /scripts/**: 128 KiB; /artifacts/**: 2 MiB.
+# Root manifests/configuration/documentation: 1 MiB; headroom: 384 KiB.
+# Generated dependencies/caches at ANY nesting depth: 0 submitted bytes.
+# Disposable /test/scratch/**: 0 submitted bytes.
+**/node_modules/
+**/.vite/
+**/.cache/
+**/.npm/
+/test/scratch/
+*.tsbuildinfo
